@@ -2,7 +2,24 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        smAva: "66px",
+        largeAva: "88px",
+
+        containerDesc: "414px",
+      },
+      minHeight: {
+        listItem: "206px",
+      },
+      screens: {
+        sm: "576px",
+      },
+      colors: {
+        bodyBgColor: "#EFF0F5",
+        primaryBgColor: "#FFFFFF",
+      },
+    },
   },
   plugins: [],
 };

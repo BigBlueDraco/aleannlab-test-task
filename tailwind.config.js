@@ -8,6 +8,8 @@ module.exports = {
         largeAva: "88px",
 
         containerDesc: "414px",
+
+        listItem: "396px",
       },
       minHeight: {
         listItem: "206px",
